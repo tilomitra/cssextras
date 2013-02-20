@@ -106,16 +106,16 @@ html body {
 
 /* Code */
 code, pre {
-    background-color: #eeeeee;
-    border: 1px solid #DCDCDC;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
     border-radius: 3px 3px 3px 3px;
-    color: #1D7612;
+    color: #666;
     font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
     font-size: 83%;
 }
 code {
-    padding: 0.1em 0.2em 0.15em;
-    white-space: nowrap;
+    padding: 0.1em 0.4em 0.15em;
+    white-space: nowrap;    
 }
 pre {
     border-radius: 4px 4px 4px 4px;
