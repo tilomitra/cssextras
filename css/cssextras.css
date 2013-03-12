@@ -1,12 +1,7 @@
-html body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
-}
-
-
 /* Images */
 .yui3-img-eliptical,
 .yui3-img-rounded {
-    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.5);       
+    box-shadow: 00 4px rgba(0, 0, 0, 0.5);       
 }
 .yui3-img-eliptical {
 	border-radius: 80%;
@@ -18,7 +13,7 @@ html body {
     background-color: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 5px;
-    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.25);   
+    box-shadow: 00 4px rgba(0, 0, 0, 0.25);   
     border-radius: 3px;
 }
 
@@ -61,7 +56,7 @@ html body {
 }
 .yui3-thumb-eliptical img,
 .yui3-thumb-rounded img{
-    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 00 4px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.2s;   
 }
 .yui3-thumb-eliptical:hover img,
@@ -84,39 +79,38 @@ html body {
     margin: 0 5px 6px;
 
 }
-.yui3-thumbnails .caption p{
+.yui3-thumbnails .caption p {
     margin: 0.3em 0 0;
     font-size: 75%;
 }
-.yui3-thumbnails .caption h3{
+.yui3-thumbnails .caption .caption-head {
     font-weight: 500;
     font-size: 90%;
 }
 .yui3-thumb-bordered:hover {    
     box-shadow: 0 0 5px rgba(17, 175, 237, 0.5);   
 }
-.yui3-thumb-eliptical img{
+.yui3-thumb-eliptical img {
 	border-radius: 50%;
 }
-.yui3-thumb-rounded img{
+.yui3-thumb-rounded img {
 	border-radius: 3px;
 }
 
 /* Code */
 code, pre {
-    background-color: #eeeeee;
-    border: 1px solid #DCDCDC;
-    border-radius: 3px 3px 3px 3px;
-    color: #1D7612;
-    font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
-    font-size: 83%;
+    font-family: Consolas, 'Liberation Mono', Courier, monospace;
+    color: #333;
+    background: #f8f8f8;
+    border-radius: 3px;
+    line-height: 1.6em;
+    font-size: 90%;
 }
 code {
     padding: 0.1em 0.2em 0.15em;
-    white-space: nowrap;
 }
 pre {
-    border-radius: 4px 4px 4px 4px;
+    border-radius: 3px;
     display: block;
     line-height: 1.3em;
     margin: 0.3em 0;
@@ -192,7 +186,6 @@ pre {
 .alert-urgent label,
 .alert-normal label {
     display: inline-block;
-    width: 150px;
     display: inline-block;
     *display: inline;
     /* IE7 inline-block hack */
@@ -262,10 +255,6 @@ pre {
     left: 50%;
 }
 
-.yui3-arrow-border {
-
-}
-
 /* POPOVER ARROW POSITIONING TOP*/
 
 .yui3-popover.top .yui3-arrow-border {
@@ -304,4 +293,35 @@ pre {
     border-color: transparent #f0f1f3 transparent transparent; 
     top:45%;
     left: -20px;
+}
+
+
+/* BUTTON IMPROVEMENTS */
+.yui3-button {
+    border-radius:1px;
+    padding: .5em 2.2em .55em;
+}
+
+.yui3-button.block {
+    display: block;
+}
+
+.yui3-button.small {
+    padding: .6em 2em .65em;
+    font-size:70%;
+}
+.yui3-button.large {
+    padding: .8em 5em .9em;
+    font-size:110%;
+}
+.yui3-button.primary {
+    color: #fff;
+    background: #3bacf8;
+    text-shadow: 1px 1px 1px #3598db;
+}
+
+.yui3-button.error {
+    color: #fff;
+    background: #e11e46;
+    text-shadow: 1px 1px 1px #b31b3a;
 }
