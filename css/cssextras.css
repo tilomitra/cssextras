@@ -110,14 +110,11 @@ code {
     padding: 0.1em 0.2em 0.15em;
 }
 pre {
-    border-radius: 3px;
-    display: block;
-    line-height: 1.3em;
-    margin: 0.3em 0;
-    padding: 0.3em 0.6em;
-    white-space: pre-wrap;
-    word-break: break-all;
-    word-wrap: break-word;
+    overflow-x: auto;
+    padding: 1.25em;
+    border: 1px solid #e6e6e6;
+    border-left-width: 5px;
+    margin: 1.7143em 0;
 }
 
 /* Badges/Pills */
