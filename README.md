@@ -4,14 +4,14 @@ Pure Extras
 Simple CSS for all those common UI elements that a web application needs. Built on the [Pure](http://purecss.io) CSS framework.
 
 
-What is it?
------------
+Install
+--------
 
-Pure Extras is a set of CSS rules that makes it easier to create common UI components for the web. It is available through Bower:
+Pure Extras is a set of CSS rules that makes it easier to create common UI components for the web. It is available through **Bower**:
 
     bower install pure-extras
 
-Or through the [YUI Gallery](http://yuilibrary.com/gallery/), under the name `gallerycss-cssextras`. Take a look at the [examples and docs](http://tilomitra.github.com/cssextras/).
+It's also available through the [YUI Gallery](http://yuilibrary.com/gallery/), under the name `gallerycss-cssextras`. Take a look at the [examples and docs](http://tilomitra.github.com/cssextras/).
 
 
 What about older browsers?
